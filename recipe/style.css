@@ -1,0 +1,50 @@
+h1{
+  color:teal;
+  font-family:cursive;
+}
+h2{
+  font-family:'Gluten', cursive;
+  font-weight:200;
+  color:maroon;
+  font-size:2rem;
+  margin-bottom:0;
+}
+
+p, ul, ol, h2{
+  margin-bottom:1em;/*1em is equal to the font size of that element*/
+}
+
+h3{
+  font-family:'Gluten', cursive;
+  font-weight:200;
+  color:maroon;
+  font-size:2rem;
+  margin-bottom:0;
+}
+p, h1, h2, h3, li{font-family: sans-serif;}
+
+body{
+  font-family:sans-serif;
+  border:solid 4px lightgray;
+  width: 50%;
+  background-color:black;
+  color:white;
+  background-image:url("images/grill.jpg";)
+  background-size: cover;
+}
+
+div{
+  max-width:1000px;
+  background-color: lightpink;
+  border:solid 4px lightgray;
+  padding:1rem;
+  margin-left:1rem;
+}
+
+img{
+  max-width:100%
+}
+
+ul, ol{
+  margin-left:1rem;
+}
