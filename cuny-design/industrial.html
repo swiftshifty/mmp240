@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design @ CUNY</title>
+    <script type="text/javascript" src="gallery.js"></script>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.mf.css">
+
+  </head>
+  <body>
+
+    <div id="logo">
+      <a href="index.html">
+      <img src="images/CUNYDesignLogo.jpg" alt="logo" width=100px>
+    </a>
+
+    <div class="container">
+      <div class="slideshow">
+        <a href="#" class="slide-back" onclick="slideshowBack(); return false;">
+        <img src="images/back.png" alt="back">
+      </a>
+      <img src="images/students.jpg" alt="" id="mypic" width=600px>
+      <a href="#" class="slide-next" onclick="slideshowUp(); return false;">
+        <img src="images/next.png" alt="next"></a>
+      </div>
+    </div>
+
+      <div id="wrapper">
+        <header class="site-header">
+          <h1>Design @ CUNY</h1>
+
+          <nav class="top-nav">
+            <button class="show-menu"><img src="images/menu.svg"></button>
+            <div class="menu" id="menu">
+            <ul class="menubar">
+<li><a href="https://www.cuny.edu/about/">About CUNY</a></li>
+<li><a href="https://www.cuny.edu/financial-aid/">Financial Aid</a></li>
+<li><a href="https://www.cuny.edu/admissions/apply-to-cuny/">Apply</a></li>
+            </ul>
+
+            <form action="" method="get" class="search">
+              <input type="search" name="search" placeholder="Search...">
+              <button>Go</button>
+            </form>
+</div>
+          </nav>
+        </header>
+        <div class="search-programs">
+          <h2>Find a Design Program</h2>
+          <h3>Search by:</h3>
+          <ul class="main-menu">
+            <li><a href="#">Discipline</a>
+              <ul class="dropdown">
+                <li><a href="digital.html">Digital Design</a></li>
+                <li><a href="animation.html">Animation</a></li>
+                <li><a href="industrial.html">Industrial Design</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Degree</a>
+          <ul class="dropdown">
+            <li><a href="associate.html">Associate</a></li>
+            <li><a href="bachelor.html">Bachelor</a></li>
+          </ul>
+        </li>
+
+        <li><a href="#">Borough</a>
+          <ul class="dropdown">
+          <li><a href="brooklyn.html">Brooklyn</a></li>
+          <li><a href="bronx.html">Bronx</a></li>
+          <li><a href="manhattan.html">Manhattan</a></li>
+          <li><a href="queens.html">Queens</a></li>
+</li>
+</ul>
+</div>
+
+<style>
+  body{
+    background:white;
+  }
+
+  #logo{
+    position:absolute;
+    left:10%;
+  }
+
+  .title h4{
+    font-size:24px;
+  }
+
+  .wrap{
+    width:1000px;
+    margin:auto;
+    margin-top:50px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+  }
+
+  .card{
+    box-shadow:0 4px 8px 0 rgba(0,0,0,0.6);
+    transition:0.4s;
+    width:300px;
+    background:#ffff;
+    text-align:center;
+    font-size:16px;
+    font-family:sans-serif;
+    float:left;
+    margin:10px;
+  }
+
+  .card:hover{
+    box-shadow:0 8px 16px 0 rgba(0,0,0,0.6);
+  }
+
+  .responsive-img{
+    width:278px;
+    height: 197px;
+  }
+
+  @media (min-width:768px){
+
+  .show-menu{
+    display:none;
+  }
+
+  .menu{
+    display:block;
+  }
+
+  .menu li{
+    display:inline;
+    margin-right:2em;
+  }
+
+  .layout{
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+    grid-column-gap: 1em;
+  }
+
+
+
+  } /* closing media query */
+
+
+  </style>
+
+<div class="title">
+<h4>Industrial Design</h4>
+</div>
+  <div class="wrap">
+<div class="card">
+  <img src="images/laguardia.jpg" alt="laguardia" style="width:100%" class="responsive-img">
+    <h4><b><a href="https://www.laguardia.edu/industrial-design/">LaGuardia Community College</a></b></h4>
+    <p>Program: Animation and Motion Graphics</p>
+    <p>Degree: A.A.S.</p>
+    <p>The Indsutrial Design program provides students a foundation experience in the necessary skills to begin a career in Computer Assisted Design (CAD), Model making, Product Design and Fabrication or transfer to a four-year institution.</p>
+    </div>
+
+    <div class="card">
+      <img src="images/newyorktech.jpg" alt="newyorktech" style="width:100%"  class="responsive-img">
+        <h4><b><a href="https://www.citytech.cuny.edu/mechanical/industrial-technology-aas.aspx">New York City College of Technology</a></b></h4>
+        <p>Program: Industrial Design Technology</p>
+        <p>Degree: A.A.S.</p>
+        <p>The Industrial Design Technology (IND) program is designed to provide students with a wide variety of skills enabling them to utilize a number of 2D, 3D and animation/simulation software packages in several diverse fields.</p>
+        </div>
